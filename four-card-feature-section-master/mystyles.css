@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:  hsl(229, 6%, 66%);
+    justify-content: center;
+    align-self: center;
+   
+    background: hsl(234, 12%, 34%);;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background:white;
+    padding:5% 10%;
+    margin:5%;
+}
+h1, h3{
+    color: hsl(234, 12%, 34%);
+}
+ .top-heading{    
+    font-weight: 200;
+    font-size:40px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    justify-content:center;
+    align-items: center;    
+    flex-direction:row nowrap;
+}
+.card{
+    margin:2rem;
+    padding:2rem;    
+    border-radius: 10px;
+    width:300px;
+    height:200px;
+    text-align: left;
+    box-shadow: 2px 2px 2px 2px  hsla(229, 6%, 66%, 0.205);
+}
+img{
+    float:right;
+}
+.card:nth-child(1){
+    border-top: 3px solid hsl(180, 62%, 55%)
+}
+.column .card:nth-child(1){
+    border-top: 3px solid hsl(0, 78%, 62%);
+}
+.column .card:nth-child(2){
+    border-top: 3px solid  hsl(34, 97%, 64%);
+}
+.card:nth-child(3){
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+@media(min-width:375px) and (max-width:1440px)
+{
+    
+    .main{
+        margin:0%;
+        padding:0%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: hsl(0, 0%, 98%);
+    }
+    .container{
+        display: flex;
+        position: relative;
+        justify-content:center;
+        align-items: center;    
+        flex-direction: column;
+    }
+    .card{
+        flex:100%;
+    }
+}
