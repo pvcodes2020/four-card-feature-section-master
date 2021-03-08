@@ -4,7 +4,6 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: hsl(229, 6%, 66%);
-  background: hsl(234, 12%, 34%);
   flex-direction: column;
 }
 .center{
@@ -18,7 +17,6 @@ body {
   text-align: center;
   background: white;
   padding: 5% 10%;
-  margin: 5%;
 }
 .header{
   flex-direction: column;
